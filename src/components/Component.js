@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 const Comp = ({value}) => <Wrapper>{value}</Wrapper>;
 
 Comp.propTypes = {
-    value: PropTypes.string,
+  value: PropTypes.string,
 };
 
 export default Comp;

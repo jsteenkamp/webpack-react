@@ -23,9 +23,11 @@ JSX Fragment syntax requires [Babel 7](https://babeljs.io/blog/2017/09/12/planni
 Common libraries/components for:
 
 - [Styled Components](https://github.com/styled-components/styled-components),  [styled-theming](https://github.com/styled-components/styled-theming), and [stylelint](https://stylelint.io/)
+- [styled-system](http://jxnblk.com/styled-system/)
+- [Tachyons functional CSS](https://tachyons.io/)
 - Flow (Type checking)
 - Logging
 - Testing (Jest, Cypress, [react-test-library](https://blog.kentcdodds.com/introducing-the-react-testing-library-e3a274307e65))
 - i18n
-- GraphQL ([Apollo](https://www.apollographql.com/))
+- [Apollo GraphQL](https://www.apollographql.com/)
 - Web workers when it makes sense using [workerize](https://github.com/developit/workerize)
