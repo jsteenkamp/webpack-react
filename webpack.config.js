@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
+const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
   devServer: {
@@ -21,6 +22,7 @@ module.exports = {
       template: './src/index.html',
       filename: './index.html',
     }),
+    new StyleLintPlugin(),
   ],
   resolve: {
     alias: {
